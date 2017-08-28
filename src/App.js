@@ -36,7 +36,7 @@ export const App = ({showAddDialog, showSettingsDialog, onAddClick, onSettingsCl
       {!weight && (<p>Please enter your weight in settings to get calories burned calculated.</p>)}
       {weight && (<TotalCalories />)}
       <div className='log'>
-        {log.map((item, id) => (<LogItem key={id} item={{...item, id}} />))}
+        {log && log.map((item, id) => (<LogItem key={id} item={{...item, id}} />))}
       </div>
     </Container>
   </div>
