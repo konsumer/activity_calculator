@@ -1,0 +1,34 @@
+{
+  "name": "activity_calculator",
+  "description": "Calculate calories expended for activities",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.18.1",
+    "muicss": "^0.9.22",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.11",
+    "react-select": "^1.0.0-rc.5",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "standard --fix",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages-deploy "
+  },
+  "devDependencies": {
+    "gh-pages-deploy": "^0.4.2",
+    "standard": "^10.0.3"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "build",
+    "prep": [
+      "build"
+    ],
+    "noprompt": true
+  }
+}

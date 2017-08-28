@@ -1,0 +1,17 @@
+.AppContainerButtons {
+  display:flex;
+}
+
+.AppContainerButtons > *:nth-child(1) {
+  flex: 1;
+}
+
+#mui-overlay {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddPanel {
+
+}

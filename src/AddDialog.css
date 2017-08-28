@@ -1,0 +1,11 @@
+.AddDialog {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.AddDialog > div {
+  flex: 1;
+  padding: 5px;
+}
