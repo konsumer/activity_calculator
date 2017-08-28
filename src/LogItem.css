@@ -1,0 +1,23 @@
+.LogItem.running {
+  background: #B9F6CA;
+}
+
+.LogItemHeader, .LogItemHeader {
+  display: flex;
+  align-items: center;
+}
+
+.LogItemHeader *:nth-child(1) {
+  flex: 1;
+}
+
+.LogItemHeader h3 {
+  margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+  .LogItemHeader {
+    flex-direction: column;
+  }
+}
