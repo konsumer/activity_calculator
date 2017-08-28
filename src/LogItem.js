@@ -9,6 +9,8 @@ import mets from './mets.json'
 
 import {titleCase, calories} from './utils'
 
+import './LogItem.css'
+
 export const LogItem = ({item, weight, onStopClick, onRemoveClick}) => {
   const classes = ['LogItem']
   if (item.running) {
