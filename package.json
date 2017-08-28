@@ -12,14 +12,14 @@
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.11",
     "react-select": "^1.0.0-rc.5",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-persist": "^4.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "standard --fix",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages-deploy "
+    "deploy": "gh-pages-deploy"
   },
   "devDependencies": {
     "gh-pages-deploy": "^0.4.2",
