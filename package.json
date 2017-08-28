@@ -1,6 +1,7 @@
 {
   "name": "activity_calculator",
   "description": "Calculate calories expended for activities",
+  "homepage": "http://konsumer.js.org/activity_calculator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
